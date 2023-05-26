@@ -35,7 +35,7 @@ class CRUDCharityProject(CRUDBase):
         )
         db_project = db_project.scalars().first()
         return db_project
-    
+
     async def get_projects_by_completion_rate(
             self,
             session: AsyncSession
