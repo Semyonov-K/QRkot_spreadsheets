@@ -1,11 +1,11 @@
 from datetime import datetime
-from typing import Optional, List, Union
+from typing import List, Optional, Union
 
 from fastapi.encoders import jsonable_encoder
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from app.models import User, CharityProject, Donation
+from app.models import CharityProject, Donation, User
 
 
 class CRUDBase:

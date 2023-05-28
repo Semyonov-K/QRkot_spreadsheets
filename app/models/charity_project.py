@@ -1,7 +1,7 @@
 from sqlalchemy import Column, String, Text
+from sqlalchemy.orm import validates
 
 from app.core.db import PreProjectDonation
-from sqlalchemy.orm import validates
 
 
 class CharityProject(PreProjectDonation):

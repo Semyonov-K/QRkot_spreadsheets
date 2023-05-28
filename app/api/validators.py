@@ -3,8 +3,8 @@ from http import HTTPStatus
 from fastapi.exceptions import HTTPException
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from app.models import CharityProject
 from app.crud import charity_project_crud
+from app.models import CharityProject
 
 
 async def check_charity_project_exists(

@@ -1,2 +1,3 @@
-from .charity_project import CharityProjectCreate, CharityProjectDB, CharityProjectUpdate # noqa
-from .donation import DonationAdminDB, DonationCreate, DonationDB # noqa
+from .charity_project import (CharityProjectCreate, CharityProjectDB,  # noqa
+                              CharityProjectUpdate)
+from .donation import DonationAdminDB, DonationCreate, DonationDB  # noqa

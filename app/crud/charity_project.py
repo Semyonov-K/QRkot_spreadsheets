@@ -1,7 +1,7 @@
 from datetime import timedelta
-from typing import Optional, List, Dict, Union
+from typing import Dict, List, Optional, Union
 
-from sqlalchemy import select, func
+from sqlalchemy import func, select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.crud.base import CRUDBase
